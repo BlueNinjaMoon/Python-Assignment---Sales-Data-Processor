@@ -1,1 +1,13 @@
-Top
+|---ERROR_LOG---|
+Line 36 | abc | Quantity isn't digit/int.
+Line 127 |  | Quantity isn't digit/int.
+Line 218 |  | Price Total not digit.
+Line 340 |  | Customer missing.
+Line 467 | -2 | Quantity isn't digit/int.
+Line 571 | not_a_price | Price Total not digit.
+Line 688 |  | Item missing.
+Line 742 |  | Price Total not digit.
+Line 865 |  | Price Total not digit.
+Line 973 | -39.99 | Price Total not digit.
+Line 1081 | 2.5 | Quantity isn't digit/int.
+Line 1166 | 0 | Quantity isn't higher than 0.
