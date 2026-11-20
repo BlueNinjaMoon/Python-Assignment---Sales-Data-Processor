@@ -1,5 +1,4 @@
 import csv
-
 files_created = []
 
 def read_sales():
@@ -144,8 +143,6 @@ def save_summary(entry:list):
             writer.writerow(row)
     files_created.append(file_path)
 
-
-
 def display_totals(priceqty, errors):
     """
     Prints final totals.
@@ -166,11 +163,6 @@ def display_totals(priceqty, errors):
     print(f"Invalid Records: {errors}")
     print(f"Files Created: {files_created[0]}, {files_created[1]}")
 
-        
-
-
-
-
 def main():
     """
     Coordinates the program and runs it.
@@ -179,7 +171,5 @@ def main():
     priceqty = returns[0]
     errors = returns[1]
     display_totals(priceqty,errors)
-    
-        
     
 main()
